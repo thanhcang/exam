@@ -41,8 +41,8 @@ DEBUG = true
 - please import file schema.sql in folder database to your database
 - create user admin
 - you could use my account (vtcanglt@gmail.com/123456) to login to system.
-#make password
 
+#make password
 with user admin, I use password_hash for generate a password.
 I suggest generate in [link text itself]: https://php-password-hash-online-tool.herokuapp.com/password_hash
 
