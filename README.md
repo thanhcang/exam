@@ -46,4 +46,8 @@ DEBUG = true
 with user admin, I use password_hash for generate a password.
 I suggest generate in [link text itself]: https://php-password-hash-online-tool.herokuapp.com/password_hash
 
+#install composer
 
+1.Run ```composer install``` to install composer library for generate autoload files
+ 
+2. Run ```composer dump-autoload -o``` to generate classmap of files.
