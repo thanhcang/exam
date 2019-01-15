@@ -1,0 +1,124 @@
+@font-face {
+    font-family : myFirstFont;
+    src         : url(../../public/fonts/Caveat-Bold.ttf);
+}
+
+body {
+    font-size   : 18px;
+    font-family : Caveat-Bold;
+    background  : #dddddd;
+}
+
+.container {
+    max-width  : 1500px;
+    margin-top : 20px;
+    min-height : 300px;
+}
+
+.side-bar {
+    margin     : 15px;
+    background : #ffffff;
+    min-height : 800px;
+}
+
+.sb-image {
+    margin-bottom : 20px;
+}
+
+.sb-image img {
+    width  : 150px;
+    margin : 0px 21%;
+}
+
+.sb-separate {
+    border  : 1px solid #dddddd;
+    margin  : 10px 0px 10px 33%;
+    display : block;
+    width   : 33%;
+}
+
+.sp-title {
+    margin    : 0px 27%;
+    font-size : 24px;
+}
+
+.sb-intro {
+    margin-bottom : 20px;
+}
+
+.sb-intro p {
+    text-align : justify;
+    padding    : 0px 20px;
+}
+
+.sb-post button {
+    width       : 100%;
+    font-size   : 18px;
+    line-height : 30px;
+}
+
+.sb-admin-login {
+    position : absolute;
+    bottom   : 5%;
+    left     : 30%;
+}
+
+.article {
+    margin     : 15px;
+    background : #333333;
+    color      : #ffffff;
+    font-size  : 16px;
+    min-height : 800px;
+}
+
+.article .card {
+    margin : 20px 10px 20px 20px;
+}
+
+.article .card p {
+    text-align : justify;
+    height     : 176px;
+    overflow   : hidden;
+    display    : inline-block;
+}
+
+.article span.author {
+    display   : block;
+    font-size : 20px;
+}
+
+.article span.date {
+    font-size : 10px;
+}
+
+.error p {
+    color : red;
+}
+
+.btn-circle {
+    width         : 30px;
+    height        : 30px;
+    text-align    : center;
+    padding       : 6px 0;
+    font-size     : 12px;
+    line-height   : 1.428571429;
+    border-radius : 15px;
+}
+
+.btn-circle.btn-lg {
+    width         : 50px;
+    height        : 50px;
+    padding       : 10px 16px;
+    font-size     : 18px;
+    line-height   : 1.33;
+    border-radius : 25px;
+}
+
+.btn-circle.btn-xl {
+    width         : 70px;
+    height        : 70px;
+    padding       : 10px 16px;
+    font-size     : 24px;
+    line-height   : 1.33;
+    border-radius : 35px;
+}
